@@ -41,7 +41,7 @@ href="https://localhost:3000
 <text> प्रगल्भ </text>
 
 ## 📸 Screenshots <a name = "screenshots"></a>
-## ![readmeBanner](https://user-images.githubusercontent.com/98955085/184510782-3f699206-4768-4b3a-aa6d-40c924e13578.png)
+## ![readmeBanner](https://github.com/Ravikant99/celestials/blob/main/webosite_png.png)
 
 
 <p align="center">

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+     <header class="sticky">
+        <a href="#" class="logo">BitByBit</a>
+        <div class="toggle" onclick="toggleMenu();">
+
+        </div>
+        <ul class="menu">
+            <li><a href="index.html" onclick="toggleMenu();">HOME</a></li>
+            <li><a href="index.html" onclick="toggleMenu();">WHO WE ARE</a></li>
+            <li><a href="#services" onclick="toggleMenu();">WHAT WE DO</a></li>
+            <li><a href="#work" onclick="toggleMenu();">WHERE WE WORK</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">GET INVOLVE</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="banner1">
+            <img src="./image/antonino-visalli-RNiBLy7aHck-unsplash.jpg">
+            <div class="text-box txt-bx1">
+                <h1>slience is not enough</h1>
+                <span></span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, 
+                    quidem dolores, eaque animi sapiente tenetur.</p>
+            </div>
+        </div>
+        <div class="banner2">
+            <img src="./image/christina-wocintechchat-com-UcZcsHSp8o4-unsplash.jpg">
+            <div class="text-box txt-bx2">
+                <h1>Know Your Passion</h1>
+                <span></span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, 
+                    quidem dolores, eaque animi sapiente tenetur.</p>
+            </div>
+        </div>
+        <div class="banner3">
+            <img src="./image/joeyy-lee-TYA5rE2Meys-unsplash.jpg">
+            <div class="text-box txt-bx3">
+                <h1>Developed your skills</h1>
+                <span></span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, 
+                    quidem dolores, eaque animi sapiente tenetur.</p>
+            </div>
+        </div>
+        <div class="banner4">
+            <img src="./image/linkedin-sales-solutions-IjkIOe-2fF4-unsplash.jpg">
+            <div class="text-box txt-bx3">
+                <h1>Learn and Earn</h1>
+                <span></span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, 
+                    quidem dolores, eaque animi sapiente tenetur.</p>
+            </div>
+        </div>
+    </section>
+   
+    
+
+    <!--Adding Contact Layout in HTML-->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactinfo">
+                <h3>Contact info</h3>
+                <p>Always available for freelance work if the right Project
+                    comes along, feel free to contact me!
+                </p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <address>IIIT BHAGALPUR<br>sabour<br>Bhagalpur<br>Bihar(813210)</address>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>+91 7562824960</p>
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>mail2ravikant99@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://wa.me/917562824960?text=" target="_blank">
+                                <i class="fa fa-whatsapp"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="formBx">
+                    <form>
+                        <h3>Message Me</h3>
+                        <input type="text" placeholder="Full Name" id="name" required>
+                        <input type="text" placeholder="Address" id="address" required>
+                        <input type="number" placeholder="Phone No" id="phone" required>
+                        <textarea id="message"  rows= "6" placeholder="Your Message" required></textarea>
+                        <input type="submit" value="Send Message" onclick="gotowhatsapp()"/>
+                    </form>
+        </div>
+    </section>
+
+
+
+
+
+   
+
+    
+</body>
+</html>
+    

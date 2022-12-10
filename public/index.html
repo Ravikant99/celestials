@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITBYBIT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Craeting Menu Tabs & Logo at Top using HTML-->
+    <header class="sticky">
+        <a href="#" class="logo">प्रगल्भ</a>
+        <div class="toggle" onclick="toggleMenu();">
+
+        </div>
+        <ul class="menu">
+            <li><a href="index.html" onclick="toggleMenu();">HOME</a></li>
+            <li><a href="#services" onclick="toggleMenu();">WHAT WE DO</a></li>
+            <li><a href="#about" onclick="toggleMenu();">WHO WE ARE</a></li>
+            <li><a href="#work" onclick="toggleMenu();">WHERE WE WORK</a></li>
+            <li><a href="./Blog.html" onclick="toggleMenu();">GET INVOLVE</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <!--Creating Banner layout In HTML-->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>प्रगल्भ</h2>
+            <h3>जीवन जितने के सन्देश में </h3>
+            <a href="#about" class="btn">About Us</a>
+        </div>
+    </section>
+    <!-- Creating Services Layout in HTML-->
+    <section class="services" id="services">
+        <div class="content">
+            <a href="/test.html" style="text-decoration:none;"><div class="serviceBx">
+                <i class="fa fa-book fa-4x"></i>
+                <h3>Mentornship</h3>
+                <p>Learn from mentors with one to one live interaction :)
+                    </p>
+            </div></a>  
+            <a href="/api" style="text-decoration:none;"><div class="serviceBx">  
+                <i class="fa fa-space-shuttle fa-4x"></i>
+                <h3>Speak Languages</h3>  
+                <p>Learn different languages with the help of <b>AI</b> :)</p>  
+            </div></a>  
+            <a href="table.html" style="text-decoration:none;"><div class="serviceBx">
+                <i class="fa fa-cogs fa-4x"></i>
+                <h3>Community</h3>  
+                <p>Interact with people having the same interest :)</p>   
+            </div></a>  
+            <a href="payment2.html" style="text-decoration:none;">
+            <div class="serviceBx">
+                <i class="fa fa-desktop fa-4x"></i>
+                <h3>Contribution</h3>  
+                <p>Help to those people who are in needs for learning skills :)</p>  
+            </div>
+            </a>
+        </div>
+    </section>
+    <!-- Creating About Section in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Our Solution</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="./image/pic3.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i ?</h3>
+                <h2>I'm <b>Women</b>, Part of our society</h2>
+                <p>प्रगल्भ is an initiative to motivate and develop women by promoting their participation in all 
+                    areas and sector builing stronger economics and improving their lives </p><br>
+                <p>This platform will assure you to have better customer experience
+                    and services as well. After analyzing the present scenario of such services and people who used to
+                    serve, we took this initiative and tried our best to create an online platform where people can
+                    avail wide range of services right at there doorstep.</p>
+                <div class="heading bottom">
+                    <a href="payment.html" target="_blank" class="btn round" >Donate Us</a>   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Creating Work Layout in HTML-->
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our initiatives</h2>
+            <p>Showcasing some of our <b>Best Work</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="./image/wp1.jpeg" alt="">
+                    
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="./image/wp2.jpeg" alt="">
+                    
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="./image/wp3.jpeg" alt="">
+                    
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="./image/wp4.jpeg" alt="">
+                    
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    
+</body>
+</html>

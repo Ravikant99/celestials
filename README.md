@@ -16,9 +16,6 @@ href="https://localhost:3000
 - [Get Started](#getStarted)
 - [Logo](#logo)
 - [Screenshots](#screenshots)
-- [Technology Stack](#tech_stack)
-- [Open-Source program](#open_source_programs)
-- [Contributors](#contributors)
 
 ## 🔎 Problem it Solves: <a name = "problem_statement"></a>
 - An initiative to empower women. 🧘‍♀
@@ -32,7 +29,7 @@ href="https://localhost:3000
 
 
 ## 🚀  Get Started <a name = "getStarted"></a>
-1. Clone the project by running git clone .
+1. Clone the project by running git clone https://github.com/Ravikant99/celestials/ .
 2. cd into directory
 3. intall npm by using npm install command in terminal
 4. type node server.js to run to project
